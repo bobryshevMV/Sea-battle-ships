@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+//==
+using Sea_battle_ships.Views;
 
 namespace Sea_battle_ships
 {
@@ -16,7 +18,7 @@ namespace Sea_battle_ships
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FormMain());
         }
     }
 }
