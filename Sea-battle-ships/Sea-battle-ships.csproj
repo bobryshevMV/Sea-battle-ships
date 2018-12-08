@@ -46,6 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\Game.cs" />
+    <Compile Include="Model\CellState.cs" />
+    <Compile Include="Views\Cell.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Views\FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,7 +87,6 @@
   <ItemGroup>
     <Folder Include="Controllers\Buttle\" />
     <Folder Include="Controllers\PrepareFleet\" />
-    <Folder Include="Model\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
